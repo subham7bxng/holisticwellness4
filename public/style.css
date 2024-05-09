@@ -1,0 +1,969 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* Here is the css style  */
+
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+
+    /* Body  */
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    #bodyMain {
+        background-color: red;
+        overflow-x: hidden;
+    }
+
+    /* here is navbar  */
+
+    .navbar {
+        padding: 0 10%;
+        background-color: #A6CF98;
+        height: 80px;
+    }
+
+    .nav-link {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-optical-sizing: auto;
+        cursor: pointer;
+        position: relative;
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    .nav-tp {
+        width: 100%;
+        height: 80px;
+        background-color: transparent;
+        transition: background-color 0.3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .button_enroll {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 20px;
+    }
+
+    .scrolled {
+        background-color: #A6CF98;
+        transition: background-color 0.3s;
+    }
+
+    .logoMain {
+        border-radius: 50%;
+        width: 60px;
+    }
+
+    .img-designe {
+        display: flex;
+        background-color: red;
+        height: 200px;
+        width: 200px;
+    }
+
+    .points-header {
+        text-align: justify;
+        font-family: "Roboto Serif", serif;
+        color: #5F374B;
+        font-weight: 500;
+        font-style: normal;
+        background-color: antiquewhite;
+        padding: 1%;
+    }
+
+    .crausal1 {
+        text-align: justify;
+        font-family: "Roboto Serif", serif;
+        color: #5F374B;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .crausal-text {
+        font-family: cursive;
+        font-weight: 10;
+        color: #45474B;
+        text-align: justify;
+    }
+
+    .crausal-p {
+        text-align: justify;
+    }
+
+    /* here will be the yogi man  */
+
+    .mar-left {
+        margin-left: 20px;
+    }
+
+    .flower-index-bg {
+        z-index: -5;
+        position: absolute;
+        left: 0;
+        top: 110%;
+        background-image: url(Yoga-IMG/pngtree-flat-paper-and-flowers-on-side-image_6117410-removebg-preview.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 230px;
+        width: 100px;
+    }
+
+    .flower-index-bg-rv {
+        z-index: -5;
+        position: absolute;
+        right: 0;
+        top: 110%;
+        background-image: url(Yoga-IMG/pngtree-flat-paper\(C\)-and-flowers-on-side-image_6117410-removebg-preview\ -\ Copy.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 230px;
+        width: 100px;
+    }
+
+    .yogi-man {
+        z-index: -1;
+        background-image: url(Yoga-IMG/WhatsApp_Image_2024-04-18_at_11.59.59_AM-removebg-preview.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 100%;
+        right: 50%;
+        transform: translate(50%, -10%);
+        margin: 0 auto;
+        height: 350px;
+        width: 360px;
+
+    }
+
+    .img-d4 {
+        position: absolute;
+        z-index: -5;
+        right: 55%;
+        top: 120%;
+        background-image: url(Yoga-IMG/chakra-6-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        transform: translate(-50%, -50%);
+        animation: rotate-bk 70s linear infinite;
+        opacity: calc(35%);
+    }
+
+    .img-c3 {
+        position: absolute;
+        z-index: -5;
+        right: 34%;
+        top: 95%;
+        background-image: url(Yoga-IMG/chakra-5-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        transform: translate(-50%, -50%);
+        animation: rotate-bk 70s linear infinite;
+        opacity: calc(35%);
+    }
+
+    .img-b2 {
+        position: absolute;
+        z-index: 1;
+        right: 33%;
+        top: 115%;
+        background-image: url(Yoga-IMG/chakra-3-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        transform: translate(-50%, -50%);
+        animation: rotate 70s linear infinite;
+        opacity: calc(30%);
+    }
+
+    .img-a1 {
+        position: absolute;
+        z-index: -1;
+        right: 40%;
+        top: 85%;
+        background-image: url(Yoga-IMG/chakra-2-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+        transform: translate(-50%, -50%);
+        animation: rotate 70s linear infinite;
+        opacity: calc(20%);
+    }
+
+    .image-container {
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        animation: rotate 70s linear infinite;
+        transform-origin: center center;
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotate-bk {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(-360deg);
+        }
+    }
+
+    /* here is crausal img  */
+
+    #crausal {
+        min-height: 400px;
+    }
+
+    .crausal {
+        height: 700px;
+    }
+
+    .img-rotate {
+        position: absolute;
+        z-index: -1;
+        left: -20px;
+        top: 20%;
+        background-image: url(Yoga-IMG/images__1_-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+        transform: translate(-50%, 5%);
+        animation: rotate 90s linear infinite;
+        opacity: calc(10%);
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .circular-img {
+        width: 200px;
+        height: 200px;
+        right: 10%;
+        top: 20%;
+        border: 1.5px solid gold;
+        border-radius: 50%;
+        position: absolute;
+        animation: ripple 5s ease-out infinite;
+        ;
+    }
+
+    @keyframes ripple {
+        0% {
+            transform: scale(0);
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(4);
+            opacity: 0;
+        }
+    }
+
+    .ripple:nth-child(2) {
+        animation-delay: 0.3s;
+    }
+
+    .ripple:nth-child(3) {
+        animation-delay: 0.6s;
+    }
+
+    .carusalimg1 {
+        border-radius: 10px;
+        position: relative;
+        height: 400px;
+        width: 500px;
+    }
+
+    .carusalimg1 {
+        transition: transform 0.3s ease;
+    }
+
+    .carusalimg1:hover {
+        transform: scale(1.1);
+    }
+
+    .carousel-control-prev-icon {
+        background-color: #A6CF98;
+        border-radius: 20px;
+    }
+
+    .carousel-control-next-icon {
+        background-color: #A6CF98;
+        border-radius: 20px;
+    }
+
+    .crausal1Btn {
+        margin: 30px 10px 0;
+    }
+
+    .carousel {
+        margin: 70px 0;
+    }
+
+    .col {
+        text-align: center;
+    }
+
+    .point {
+        padding: 0 3%;
+    }
+
+    .crausal1 {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .crausal1 {
+        transition: transform 0.3s ease;
+    }
+
+    .crausal1:hover {
+        transform: scale(1.1);
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease;
+    }
+
+    /* here is the card display  */
+
+    .card_linky {
+        text-decoration: none;
+        color: black;
+    }
+
+    .card_linky:hover {
+        color: white;
+    }
+
+    #cardsDisplay {
+        text-align: center;
+        margin: 340px 0 80px;
+        background-color: #D9EDBF;
+        padding: 50px 0;
+    }
+
+    .card {
+        width: 17rem;
+        border-radius: 10px;
+    }
+
+    .card-top {
+        color: #5F374B;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .card-texty {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgb(0, 0, 0, 0.3), #FBC252);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 14px;
+        transition: height 0.6s;
+        color: aliceblue;
+    }
+
+    .card:hover .card-text {
+        height: 100%;
+    }
+
+    .card-para {
+        text-decoration: none;
+    }
+
+    .hanging_flowers {
+        position: absolute;
+        top: 1500px;
+        right: 50px;
+        height: 200px;
+        width: 200px;
+        z-index: -7;
+    }
+
+    .card-img-top {
+        height: 250px;
+    }
+
+    /* here will the student part  */
+
+    .student-cont {
+        text-align: center;
+        margin: 90px 0;
+        padding: 50px;
+        background-color: #F6F5F2;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .student_img {
+        margin: 10px auto;
+        border: 1px solid;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .student_body {
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    .bor_right {
+        border-right: 1px solid black;
+    }
+
+    .bor_left {
+        border-left: 1px solid black;
+    }
+
+    .reddyy {
+        background-color: #F6F5F2;
+    }
+
+    /* here is the contact display part  */
+
+    .contact-info {
+        background-image: url(Yoga-IMG/Untitled\ design.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-color: #A6CF98;
+        height: 320px;
+        padding: 5%;
+    }
+
+    .content {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* here is the slider part */
+    #events {
+        margin: 50px 0;
+    }
+
+    .slider-header {
+        text-align: center;
+    }
+
+    .slider {
+        position: relative;
+        border: 1px solid #A6CF98;
+        background-color: #F3FDE8;
+        max-width: 1000px;
+        width: 60%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .slider-wrapper .img-list {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(12, 1fr);
+        overflow-x: auto;
+    }
+
+    .slider-wrapper .img-list .img-item {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    .niche_ka_phool {
+        z-index: -10;
+        background-image: url(Yoga-IMG/33efb8df-74a0-4415-b3b4-84abbef2d6f9-removebg-preview.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 500px;
+        position: absolute;
+        top: 390%;
+    }
+
+
+    /* here is the footer part  */
+
+    .footer {
+        background-color: #A6CF98;
+        background-image: url(Yoga-IMG/Untitled_design_f-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        padding: 5%;
+    }
+
+    .footerContent {
+        text-align: justify;
+    }
+
+    .foot_head {
+        color: #481E14;
+        font-size: x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .endDivider {
+        margin: 60px 0 30px;
+    }
+
+    .quick-links {
+        color: rgb(29, 29, 29);
+        text-decoration: none;
+    }
+
+    .quick-links:hover {
+        text-decoration: underline;
+        font-weight: 1000;
+        color: #675D50;
+    }
+
+    .faEd {
+        margin: 5px;
+    }
+
+
+    .point {
+        text-align: left;
+    }
+
+
+    /* here is the reiki part  */
+
+    .reiki_top_img {
+        background-repeat: repeat-x;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 450px;
+    }
+
+    .reiki_img {
+        width: 100%;
+    }
+
+    .reiki_cont_img {
+        height: 330px;
+    }
+
+    /* yoga content  */
+
+    .yoga-navscrool {
+        background-image: url(Yoga-IMG/AdobeStock_272213587-scaled-e1627287830311.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 350px;
+
+    }
+
+    .yoga-content {
+        box-shadow: 2px solid;
+        border: 1px snow;
+        border-radius: 10px;
+        margin: 400px 0 0;
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    .yoga-head {
+        position: absolute;
+        background: linear-gradient(rgba(224, 140, 140, 0.651), #F3FDE8);
+        height: 400px;
+        top: 0;
+    }
+
+    .yoga-head:hover {
+        background: linear-gradient(rgb(223, 224, 206), #FFE5E5);
+        cursor: pointer;
+    }
+
+    .yoga-theme {
+        position: absolute;
+        bottom: 0;
+        background-image: url(Yoga-IMG/IMG-20240319-WA0030-removebg-preview.png);
+        height: 320px;
+        width: 500px;
+    }
+
+    .yoga_intro {
+        margin-top: 170px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        color: #675D50;
+    }
+
+    .yoga_content_pic {
+        height: 250px;
+        margin: 20px 5px 0 20px;
+    }
+
+    .yoga_content_text {
+        border-right: 1px solid;
+    }
+
+    .hello_moto {
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        background-color: #1d8dd8;
+    }
+
+    .upar_jao {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .yoga_img {
+        background-position: top;
+        height: 500px;
+        width: 100%;
+    }
+
+    .yoga_details {
+        margin-top: 550px;
+    }
+
+    .yoga_bg_img {
+        background-image: url(Yoga-IMG/IMG-20240319-WA0022.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 350px;
+        margin: 0px 0;
+        opacity: calc(90%);
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .bg_div_text {
+        color: #fff;
+    }
+
+    /* meditation content  */
+
+    .body_medi {
+        background-image: url(Yoga-IMG/1b0d53932f6ee65c879bffffe9fea9ba.jpg);
+        background-position: center;
+        height: 300%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: calc(40%);
+        z-index: -50;
+    }
+
+    .medi-img {
+        border-radius: 10px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+
+    .vid-center {
+        margin: auto;
+        height: 290px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .medi-paragraph {
+        padding-right: 0px;
+    }
+
+    .btt {
+        text-align: center;
+    }
+
+    .medi-navscrool {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .medi_top_part {
+        position: absolute;
+        text-align: center;
+        color: #F3FDE8;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 300px;
+        font-weight: 700;
+    }
+
+    .yog_img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .medi_bg_img {
+        position: absolute;
+        top: 1730px;
+        background-image: url(Yoga-IMG/Yoganidra.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        opacity: calc(90%);
+    }
+
+    .medi_second_part {
+        text-align: center;
+        margin: 50px 0 0;
+    }
+
+    .medi_stu_img {
+        height: 250px;
+        width: 250px;
+        border: 1px solid;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    /* here is the nidra part  */
+
+    .nidra_top_part {
+        text-align: center;
+        color: #F3FDE8;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 260px;
+        font-weight: 700;
+    }
+
+    /* register page  */
+
+    .regi-navscrool {
+        background-image: url(Yoga-IMG/IMG-20240319-WA0019.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 450px;
+        /* opacity: calc(50%); */
+    }
+
+    .regi_img {
+        margin: 0 10px 0 0;
+        height: 300px;
+        width: 250px;
+    }
+
+    .regi_mn {
+        width: 580px;
+    }
+
+    .hor-rul {
+        border: none;
+        border-top: 5px dotted #1d8dd8;
+        color: #3498db;
+        background-color: transparent;
+        width: 50%;
+        margin: auto;
+    }
+
+    .regi-from {
+        margin: 380px 0 50px;
+        background-color: #F6F5F2;
+        border-radius: 10px;
+        padding: auto;
+    }
+
+    .regi-textItems {
+        padding: 50px;
+        text-align: justify;
+    }
+
+    .registration_text {
+        color: #867070;
+        text-align: center;
+        margin: 10px;
+        border-bottom: 1px dotted;
+    }
+
+    .register_box {
+        background-color: #DDDDDD;
+        margin: 60px auto;
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+    .mar_left {
+        margin: 0 30px;
+    }
+
+    .cent_karo {
+        margin: auto;
+    }
+
+
+    /* here is the tarrot part  */
+
+    .tarrot_top_img {
+        background-image: url(Yoga-IMG/tarot-card-with-candlelight-on-the-darkness-background-for-astrology.jpg);
+        background-position: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 420px;
+        margin-bottom: 0px;
+    }
+
+    .tar_cont_img {
+        height: 200px;
+        opacity: calc();
+    }
+
+    .tar_bg {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* here is the counceling part  */
+
+    .counceling_top_img {
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        top: 0;
+        background-image: url(Yoga-IMG/counceling_session.png);
+        background-position: center;
+    }
+
+    .coun_top_text {
+        text-align: center;
+        margin-top: 150px;
+        margin-left: 400px;
+    }
+
+    .con_head_text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #675D50;
+    }
+
+    /* here is the student part */
+
+    .student_top_img {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(166, 207, 152, 1) 100%);
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        top: 0;
+    }
+
+    .student_top_img:hover {
+        background: rgb(166, 207, 152);
+        background: linear-gradient(90deg, rgba(166, 207, 152, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .stutend_text {
+        color: #6b5a5a;
+        font-family: cursive;
+        margin-left: 800px;
+        margin-top: 200px;
+    }
+
+    .studt_imgy {
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+        height: 250px;
+        width: 500px;
+    }
+
+
+    p {
+        font-family: cursive, sans-serif;
+        font-weight: 100;
+    }
+
+
+    /* here is the animation  */
+
+    /* section .animate{
+        transition: 1s;
+    }
+
+    .sec-5 .animate{
+        transform: translatex(-100%);
+    }
+
+    .sec-5.show-animate .animate{
+        transform: translatex(0);
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
